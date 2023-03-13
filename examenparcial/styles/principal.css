@@ -1,0 +1,32 @@
+.mapa{
+  width: 500px;
+  height: 500px;
+  margin-left: 500px;
+}
+#tierra{
+  width: 500px;
+  height: 285px;
+  margin-left: 500px;
+}
+#latitud{
+  margin-left:580px;
+}
+#nombrelugar{
+  color: black;
+  margin-left: 700px;
+  
+}
+#btnmapa{
+  margin-left: 700px;
+}
+#lugar{
+  color: white;
+  font-size: x-large;
+  margin-left: 690px;
+}
+#bienvenida{
+  color: white;
+  font-size: x-large;
+  margin-left: 690px;
+  display: none;
+}

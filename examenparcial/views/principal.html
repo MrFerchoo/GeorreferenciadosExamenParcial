@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principal</title>
+    <link rel="stylesheet" href="/node_modules/ol/ol.css" />
+    <link rel="stylesheet" href="/styles/principal.css" />
+  </head>
+  <body style="background-color: #0B0524;">
+    <!--Imagen-->
+    <img id="tierra" src="/images/tierra.gif" alt="Nuestra tierra" />
+    <br><br>
+    <!--Text field para coordenadas y nombre-->
+    <input id="nombrelugar" type="text"  placeholder="nombre">
+    <br><br>
+    <input id="latitud" type="text" name="latitud" placeholder="latitud" required>
+    <input id="longitud" type="text" name="longitud" placeholder="longitud" required>
+    <br><br>
+    <!--Boton-->
+    <button id="btnmapa" type="submit" >Mostrar mapa</button>
+    <br><br>
+    <!--Mapa-->
+    <div id="mapa" class="mapa"></div>
+    <br><br>
+    <!--Nombre de lugar-->
+    <label id="bienvenida">Nos vemos en </label>
+    <label id="lugar"></label>
+    
+    <!--Enlace de JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/elm-pep@1.0.6/dist/elm-pep.js"></script>
+    <script type="module" src="/javascript/principal.js"></script>  </body>
+</html>
